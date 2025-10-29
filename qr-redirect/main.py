@@ -6,7 +6,7 @@ app = FastAPI(title="Simple Dynamic QR Redirect")
 
 # ─────────────────────────────────────────────
 # ✏️ Change this URL anytime you want to redirect the QR elsewhere
-REDIRECT_URL = "https://www.google.com"
+REDIRECT_URL = "https://mitilabs-46899750.hubspotpagebuilder.com/watch-give-away?hs_preview=QxnlaCdi-198619491124&"
 
 # ─────────────────────────────────────────────
 @app.get("/", response_class=HTMLResponse)
